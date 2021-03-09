@@ -6,6 +6,7 @@ class Persona:
         self.edad = edad
         
     
+<<<<<<< HEAD
     def presentacion(self):
         '''Principal saludo'''
         print(f'Hola {self.nombre} espero que estes de buen humor hoy :)')
@@ -20,3 +21,11 @@ class Persona:
 persona = Persona("juan", 26)
 persona.saludo()
 persona.fecha_de_nacimiento(2021)
+=======
+    def saludo(self):
+        print('este es un saludo')
+        
+
+persona = Persona("juan", 26)
+persona.saludo()
+>>>>>>> cac2bcfc338a56c319a2910594d8c1a970c28ea2
